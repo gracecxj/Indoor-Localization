@@ -2,11 +2,11 @@
 
 ## MSc Project: Indoor localization using neural networks
 
-**Brief introducton:** 
+### Brief introducton: ###
 1. try to use clollected wifi fingerprint to train a rough neural network to roughly predict the location of a mobile device
 2. using the accelerometer and the magnetometer data to enhence the time consistency of the location prediction(trajectory continuity)
-
-**Current progress:**
+### Current progress: ###
+Current progress:###
 - collected data insite, and get the ouput files from the prebuilt android mobile app(more information available:  https://github.com/vradu10/LSR_DataCollection.git). 
 - preprocessed the data file, and converted them into standard inputs and outputs that the neural nets required.
 - constructed 2 simple neural nets(classification, regression) to predict the location from wifi fingerprint
@@ -37,8 +37,10 @@ autoencoder vs autoencoder+dropout:
 - collecting two dataset: dynamically and staticlly
 
 **Code Documentation:**
+
 The main part of this repository are three directories:
-1. `"Data"` directory
+
+**1. `"Data"` directory**
 -  `"background"` directory : the original data collected by the mobile app
 - `"masking area"` directory : the two types of masking areas (forground)
 - `"unlabelled"` directory : the preprocessed unlabelled WiFi data (no location)
